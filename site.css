@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: snow;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+}
+
+
+.item{
+    padding: 15px;
+    text-decoration: none;
+}
+.item:hover{
+    background-color:snow;
+    color: black;
+}
+.logo{
+    background-color: #009688 ;
+    padding: 15px;
+    text-decoration: none;
+}
+.logo:hover{
+    background-color:grey;
+    color: black;
+}
+.logo2{
+    margin-left: auto;
+    padding: 15px;
+}
+.logo2:hover{
+    background-color:#009688;
+    color: black;
+}
+
+.location{
+    position: relative;
+    z-index: 1;
+}
+.writing{
+    position: absolute;
+    bottom: 10px;
+    left:0;
+    z-index: 2;
+    background-color: black;
+    margin-left: 10px;
+    padding: 8px 16px;
+    font-size: 24px;
+}
+.h2-1{
+    display: block;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: normal;
+}
+.p-1{
+    display: block;
+    color: black;
+    text-align: center;
+}
+.team
+{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+}
+.team-img{
+   
+    border-radius: 60px;
+    text-align: center;
+}
+.price-text
+{
+    text-align: center;
+    color: black;
+}
+
+.pricing-main {
+    pad: 0 8px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.pricing-box {
+    box-sizing: inherit;
+}
+
+.pricing-list {
+    list-style-type: none;
+    font-size: 18px;
+    box-sizing: inherit;
+    padding: 0 8px;
+    width: 70%;
+    
+}
+
+.pricing-items {
+    border: solid 3px #009688;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    
+}
+
+.footer1 {
+    background-color: black;
+    margin-top: 40px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-link {
+    margin: 20px;
+    background-color: #009688;
+    padding: 8px 16px;
+}
+
+b,li,h2,span{
+    color:black;
+}
+.footer-link:hover 
+{
+    background-color: grey;
+    color: black;
+}
+button{
+    padding: 10px;
+}
+
+button:hover{
+    color:black;
+    background-color: gray;
+}
